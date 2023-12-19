@@ -62,3 +62,11 @@
   right: 30%;
   position: relative;
 }
+
+@media screen and (max-width: 844px) {
+  body {
+    .right-Img {
+      display: none;
+    }
+  }
+}
