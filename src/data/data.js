@@ -35,6 +35,12 @@ const mywork = [
 
 const myLink = [
   {
+    id: 5,
+    Name: "Resume",
+    showName: "Kushal_Mani.pdf",
+    link: "../assets/Kushal_Mani.pdf"
+  },
+  {
     id: 1,
     Name: "LinkedIN",
     showName: "Kushal Mani",

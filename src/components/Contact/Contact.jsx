@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Contact.css";
 import Mydata from "../../data/data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClipboard } from "@fortawesome/free-solid-svg-icons";
+import { faClipboard, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 const Contact = () => {
   const [linkArr, setArr] = useState([]);
@@ -48,13 +48,19 @@ const Contact = () => {
                       <div key={res.id}>
                         <div className="contact-Bold-about">{res.Name}</div>
                         <div className="contact-texter">
-                          <a href={res.link}>{res.showName}</a>
-                          <span
-                            className="clipboard-icon"
-                            onClick={() => copyToClipboard(res.link)}
-                          >
-                            <FontAwesomeIcon icon={faClipboard} />
-                          </span>
+                          <a href={res.link} download={index == 0}>
+                            {res.showName}
+                          </a>
+                          {index != 0 && (
+                            <span
+                              className="clipboard-icon"
+                              onClick={() => copyToClipboard(res.link)}
+                            >
+                              <FontAwesomeIcon
+                                icon={index == 0 ? faDownload : faClipboard}
+                              />
+                            </span>
+                          )}
                         </div>
                       </div>
                     </>
