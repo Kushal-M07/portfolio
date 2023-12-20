@@ -4,7 +4,7 @@ const mywork = [
   {
     id: 1,
     Name: "Code Compiler",
-    link: "Code Link"
+    link: "https://github.com/Kushal-M07/Code-Compiler/tree/master"
   },
   {
     id: 2,
@@ -14,17 +14,22 @@ const mywork = [
   {
     id: 3,
     Name: "ChatGPT Clone",
-    link: "GPT Link"
-  },
-  {
-    id: 5,
-    Name: "Split Bill",
-    link: "Bill Link"
+    link: "https://medium.com/@kushaldobhal2001/create-your-own-chatgpt-revolutionizing-conversational-ai-6fb05a10f690"
   },
   {
     id: 4,
     Name: "Bankist",
-    link: "Bank Link"
+    link: "https://github.com/Kushal-M07/bankist"
+  },
+  {
+    id: 5,
+    Name: "Split Bill",
+    link: "https://github.com/Kushal-M07/Split-bill"
+  },
+  {
+    id: 6,
+    Name: "Admin Dashboard",
+    link: "https://github.com/Kushal-M07/Admin-DashBoard/tree/master/my-app"
   }
 ];
 
@@ -45,13 +50,13 @@ const myLink = [
     id: 3,
     Name: "Mail",
     showName: "Kushaldobhal2001",
-    link: "mailto:Kushaldobhal2001@gmail.com"
+    link: "mailto:kushaldobhal2001@gmail.com"
   },
   {
     id: 4,
     Name: "Instagram",
     showName: "Kushal",
-    link: "https://www.instagram.com/_kushal.ai/"
+    link: "https://www.instagram.com/kushal.dobhal07/"
   }
 ];
 const Mydata = {
